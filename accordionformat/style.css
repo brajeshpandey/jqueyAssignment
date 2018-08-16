@@ -1,0 +1,39 @@
+.collapse_group_item-section{
+	width: 60%;
+	border: 2px solid #eee;
+}
+.section-center-align{
+	display: flex;
+	justify-content: center;
+}
+.collapse-item{
+	height: 22px;
+	cursor: pointer;
+    padding: 23px;
+    background-color: #eee;
+    border-bottom: 1px solid #ddd;
+}
+.collapse-item div{
+	font-size: 20px;
+}
+.text-center{
+	text-align: center;
+	padding: 20px 0px;
+}
+.collapse_down_section{
+	padding: 25px 20px;
+    font-size: 20px;
+}
+.collapse_down_section{
+	padding: 25px 20px;
+    font-size: 20px;
+}
+.dn{
+	display: none;
+}
+@media(max-width: 768px) {
+	.collapse_group_item-section{
+	width: 98%;
+	border: 2px solid #eee;
+}
+}
